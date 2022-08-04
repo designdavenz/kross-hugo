@@ -5,6 +5,7 @@ collections_config:
         - visual
         - content
     disable_add: true
+    
   blog:
     _enabled_editors:
         - content
