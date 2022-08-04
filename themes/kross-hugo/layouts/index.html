@@ -84,7 +84,7 @@
               <div class="wave" data-progress="{{.progress}}"></div>
             </div>
             <div class="card-footer bg-white">
-              <h4 class="card-title">{{.title }} ({{.progress}})</h4>
+              <h4 class="card-title editable">{{.title }} ({{.progress}})</h4>
             </div>
           </div>
         </div>
@@ -108,9 +108,9 @@
         {{ range .item }}
         <div class="col-lg-3 col-md-4 text-center">
           <img src="{{.logo | relURL }}" alt="icon">
-          <p class="mb-0">{{.duration}}</p>
+          <p class="mb-0 editable">{{.duration}}</p>
           <h4>{{.title }}</h4>
-          <h6 class="text-light">{{.company }}</h6>
+          <h6 class="text-light editable">{{.company }}</h6>
         </div>
         {{ end }}
       </div>
