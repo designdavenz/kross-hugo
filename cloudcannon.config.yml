@@ -1,7 +1,7 @@
 
 collections_config:
   pages:
-    disable_add: true
+    disable_add: false
     _enabled_editors:
         - visual
         - content
