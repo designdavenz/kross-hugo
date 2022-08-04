@@ -4,6 +4,7 @@ collections_config:
     _enabled_editors:
         - visual
         - content
+    disable_add: true
   blog:
     _enabled_editors:
         - content
@@ -40,3 +41,5 @@ _editables:
 _inputs:
   author_signature: 
     type: image
+    
+    
