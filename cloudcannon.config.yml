@@ -2,6 +2,7 @@
 collections_config:
   pages:
     disable_add: false
+    title: landing pages
     _enabled_editors:
         - visual
         - content
