@@ -1,8 +1,8 @@
 
 collections_config:
   pages:
-    disable_add: false
-    title: landing pages
+    disable_add: true
+    title: Landing pages
     _enabled_editors:
         - visual
         - content
@@ -13,6 +13,7 @@ collections_config:
         - content
         - visual
   data:
+    title: Sections
     _enabled_editors:
         - data
         - content      
