@@ -3,6 +3,7 @@ collections_config:
   pages:
     disable_add: true
     title: Landing pages
+    icon: notes
     _enabled_editors:
         - visual
         - content
