@@ -36,3 +36,7 @@ _editables:
     undo: true
     redo: true
     removeformat: true
+    
+_inputs:
+  author_signature: 
+    type: image
