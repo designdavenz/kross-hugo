@@ -1,10 +1,11 @@
 
 collections_config:
   pages:
+    disable_add: true
     _enabled_editors:
         - visual
         - content
-    disable_add: true
+    
     
   blog:
     _enabled_editors:
